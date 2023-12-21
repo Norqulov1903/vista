@@ -1,0 +1,62 @@
+@import url("./_main.css");
+@import url("./_header.css");
+@import url("./_footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+3:wght@600&display=swap');
+@import url("./_meet.css");
+@import url("./_owl1.css");
+@import url("./_feel.css");
+@import url("./owl2.css");
+@import url("./_forms.css");
+@import url("./_directory.css");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 2000px;
+}
+.conatiner{
+  max-width: 1390px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin: auto;
+}
+@media screen and (max-width:1638px) {
+  .conatiner{
+    max-width: 1440px;
+  }
+}
+@media screen and (max-width:1440px) {
+  .conatiner{
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width:1024px) {
+    .conatiner{
+      max-width: 992px;
+    }
+}
+@media screen and (max-width:992px) {
+    .conatiner{
+      max-width: 768px;
+    }
+}
+@media screen and (max-width:768px) {
+    .conatiner{
+      max-width: 625px;
+    }
+}
+@media screen and (max-width:625px) {
+    .conatiner{
+      max-width: 480px;
+    }
+}
+@media screen and (max-width:480px) {
+  .conatiner{
+    max-width: 375px;
+  }
+}
+
+  

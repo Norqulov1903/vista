@@ -1,0 +1,286 @@
+.main__forms{
+  width: 100%;
+
+  margin: auto;
+  background-color: white;
+ 
+}
+.main__forms__inner{
+  max-width: 1390px;
+  width: 100%;
+
+
+  margin: auto;
+}
+
+.main__forms__inner__title{
+  width: 100%;
+
+  margin-top:70px;
+
+}
+.main__forms__inner__title h2{
+  color:  #16594A;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-style: normal;
+
+  font-weight: 700;
+  line-height: 142.5%; 
+  text-transform: capitalize;
+}
+.main__forms__inner__card{
+  width: 100%;
+  height: auto;
+
+}
+.main__forms__email{
+  width: 100%;
+ height: auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+
+  transition: all 0.3s;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.main__forms__inner__box{
+  padding-bottom: 60px;
+}
+.main__forms__email img{
+  transition: all 0.3s;
+  cursor: pointer;
+  padding: 20px;
+}
+.main__forms__email img:hover{
+  box-shadow: 0 0 10px grey;
+  border-radius: 10px;
+
+}
+.main__forms__inner__box{
+  width: 100%;
+  height: auto;
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  cursor: pointer;
+
+}
+.swiper-slide1{
+  background-color: transparent;
+}
+.main__meet__desc__rasm{
+  display: none;
+}
+.main__forms__inner__box img{
+  transition: all 0.3s;
+  padding: 20px;
+}
+.main__forms__inner__box img:hover{
+  box-shadow:  0 0 10px grey;
+  border-radius: 10px;
+}
+
+
+
+@media screen and (max-width:1638px) {
+ 
+  }
+  @media screen and (max-width:1440px) {
+  
+  }
+  @media screen and (max-width:1271px) {
+
+  }
+  @media screen and (max-width:1137px) {
+    .main__forms__email{
+      flex-wrap: wrap;
+    }
+    .main__forms__inner__box{
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width:1024px) {
+    .main__meet__title h1{
+      font-size: 40px;
+    }
+  }
+  @media screen and (max-width:992px) {
+   
+   
+    .mian__feel__inner__owl{
+      width: 100%;
+    }
+   
+    .swiper-slide img{
+      width: 77%;
+    }
+  }
+  @media screen and (max-width:768px) {
+  
+    .swiper1{
+      display: none;
+    }
+    .main__meet{
+      flex-wrap: wrap;
+    }
+    .main__meet__span{
+      width: 400px;
+      margin: 20px auto;
+      height: 5px;
+    }
+    .main__meet__desc__rasm{
+      display: block;
+    }
+    .main__meet__desc{
+      max-width: 438px;
+      width: 100%;
+    }
+    .main__meet__title{
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .main__meet{
+      margin-top: 40px;
+    }
+  }
+  @media screen and (max-width:635px) {
+    .main__feel__input{
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .main__forms__inner__box{
+      margin-top: 30px;
+    }
+    .main__forms__inner__box img:nth-child(1){
+      width: 400px;
+    }
+    .main__forms__inner__box img:nth-child(2){
+      width: 500px;
+    }
+    .main__forms__email img:nth-child(1){
+      width: 300px;
+    }
+    .main__forms__email img:nth-child(2){
+      width: 300px;
+    }
+    .main__forms__email img:nth-child(3){
+      width: 300px;
+    }
+    .main__feel__inner__title p{
+      padding-right: 0px;
+    }
+    .main__feel__inner__title h3{
+      text-align: center;
+    }
+    .swiper-button-next{
+      background-color: orange;
+      width: 40px!important;
+      height: 40px!important;
+      border-radius: 50%;
+      transition: all 0.3s;
+      cursor: pointer;
+      margin-left: -30px!important;
+    }
+    .swiper-button-prev{
+      background-color: orange;
+      width: 40px!important;
+      height: 40px!important;
+      border-radius: 50%;
+      margin-left: -10px!important;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .swiper-button-next:after {
+      text-align: center;
+      font-size: 25px;
+      margin-left: 3px;
+      cursor: pointer;
+      color: white;
+    }
+    .swiper-button-prev:after{
+      text-align: center;
+      font-size: 25px;
+      margin-right: 3px;
+      cursor: pointer;
+      color: white;
+     
+    }
+    .swiper-slide img {
+      display: block;
+      width: 60%;
+      border-radius: 10px;
+      height: 70%;
+      object-fit: cover;
+    }
+    .swiper-slide{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .swiper-slide{
+      height: 300px;
+    }
+    
+  }
+
+  @media screen and (max-width:561px) {
+    .main__feel__inner__title h3{
+      font-size: 30px;
+      text-align: center;
+    }
+    .main__forms__inner__title h2{
+      font-size: 40px;
+    }
+    .main__forms__inner__title{
+      margin-top: 40px;
+    }
+  }
+  @media screen and (max-width:480px) {
+   .main__meet__desc__rasm{
+    max-width: 338px;
+    width: 100%;
+   }
+   .main__meet__title h1{
+    font-size: 32px;
+   }
+   .main__forms__inner__title h2{
+    font-size: 32px;
+  }
+  .main__forms__inner__box img:nth-child(1){
+    width: 300px;
+  }
+  .main__forms__inner__box img:nth-child(2){
+    width: 384px;
+  }
+  .main__forms__email img:nth-child(1){
+    width: 250px;
+  }
+  .main__forms__email img:nth-child(2){
+    width: 200px;
+  }
+  .main__forms__email img:nth-child(3){
+    width: 250px;
+  }
+  .main__forms__inner__title{
+    margin-top: 20px;
+  }
+  }
+  @media screen and (max-width:375px) {
+    .main__forms__inner__box img:nth-child(2){
+      width: 333px;
+    }
+    .main__forms__inner__title h2{
+
+      font-size:  27px;
+    }
+  }
+  

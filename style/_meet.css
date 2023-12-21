@@ -1,0 +1,52 @@
+.main__meet{
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+.main__meet__title{
+  max-width: 595px;
+  width: 100%;
+  height: auto;
+
+}
+.main__meet__desc{
+  max-width: 560px;
+  width: 100%;
+  height: auto;
+}
+.main__meet__title h1{
+  color: #333;
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; 
+  text-transform: capitalize;
+}
+.main__meet__span{
+  width: 5px;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 33px;
+  border: none;
+  background-color:#F98F45 ;
+}
+.main__meet__desc p{
+  color:  #333;
+  text-align: justify;
+  font-family: Josefin Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 142.5%; 
+  text-transform: capitalize;
+}
+.main__meet__desc p:nth-child(2){
+  margin-top: 10px;
+}
